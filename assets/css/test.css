@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
 }
 
 body{
@@ -23,6 +23,7 @@ body{
 .mainClass h1{
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
 }
 .mainClass .inptPlace{
     margin: 20px 0;
@@ -67,8 +68,8 @@ body{
     pointer-events: auto;
 }
 .mainClass .todoList{
-    max-height: 250px;
-    overflow-y: auto;
+    font-size: 30px;
+    font-weight: 600;
 }
 .todoList li{
     position: relative;
@@ -81,6 +82,7 @@ body{
     padding: 0 15px;
     cursor: default;
     overflow: hidden;
+    font-size: 20px;
 }
 .todoList li button{
     position: absolute;

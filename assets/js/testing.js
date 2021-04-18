@@ -1,4 +1,5 @@
 function getItem() {
+
     var inputData;
     inputData = document.getElementById('input').value;
     if (inputData == "") {
@@ -13,8 +14,9 @@ function getItem() {
         var result = document.getElementById('result');
         result.appendChild(liTag);
         var remTag = document.createElement('button');
-        var remTxt = document.createTextNode(' X ');
-        remTag.appendChild(remTxt);
+        var iTag = document.createElement('i');
+        remTag.appendChild(iTag);
+        iTag.setAttribute('class','fas fa-trash' );
         liTag.appendChild(remTag);
         liTag.addEventListener("click", taskDone);
 
