@@ -5,7 +5,7 @@
 This application is a simple yet effective task management tool that allows you to add, complete, and remove tasks. Originally started as a project during a web development internship in 2021, it has since been expanded and improved to include additional features.
 
 ####👶:
-Although this project was small and looks simple(witch is really are XD),but it was very challenging for me at that time. 
+Although this project was small and looks simple(whitch is really are XD),but it was very challenging for me at that time. 
  it has deep meanings for me
 Like the feeling of stress and discomfort that was imposed on me because of the incompleteness of this simple project
 Time really flies :)
